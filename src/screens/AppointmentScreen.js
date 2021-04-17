@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import doctors from '../doctors'
 import { Row, Col, Button, Form } from 'react-bootstrap'
 import Calender from '../components/Calender'
@@ -12,8 +12,11 @@ const AppointmentScreen = ({ match }) => {
   const [phone, setPhone] = useState('')
   const [reason, setReason] = useState('')
 
+  const history= useHistory()
+
   const submitHandler=()=>{
       alert('Your Appointment Has Been Scheduled! Please Come on Time')
+      history.push('/')
   }
 
   return (
