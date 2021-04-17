@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/squarehealth/static/css/main.dfd5fc26.chunk.css",
-    "main.js": "/squarehealth/static/js/main.8309e41f.chunk.js",
-    "main.js.map": "/squarehealth/static/js/main.8309e41f.chunk.js.map",
+    "main.js": "/squarehealth/static/js/main.a01e2d19.chunk.js",
+    "main.js.map": "/squarehealth/static/js/main.a01e2d19.chunk.js.map",
     "runtime-main.js": "/squarehealth/static/js/runtime-main.2a839ca9.js",
     "runtime-main.js.map": "/squarehealth/static/js/runtime-main.2a839ca9.js.map",
     "static/css/2.0cfad52a.chunk.css": "/squarehealth/static/css/2.0cfad52a.chunk.css",
-    "static/js/2.9f516421.chunk.js": "/squarehealth/static/js/2.9f516421.chunk.js",
-    "static/js/2.9f516421.chunk.js.map": "/squarehealth/static/js/2.9f516421.chunk.js.map",
+    "static/js/2.850c620d.chunk.js": "/squarehealth/static/js/2.850c620d.chunk.js",
+    "static/js/2.850c620d.chunk.js.map": "/squarehealth/static/js/2.850c620d.chunk.js.map",
     "static/js/3.2eea1765.chunk.js": "/squarehealth/static/js/3.2eea1765.chunk.js",
     "static/js/3.2eea1765.chunk.js.map": "/squarehealth/static/js/3.2eea1765.chunk.js.map",
     "index.html": "/squarehealth/index.html",
     "static/css/2.0cfad52a.chunk.css.map": "/squarehealth/static/css/2.0cfad52a.chunk.css.map",
     "static/css/main.dfd5fc26.chunk.css.map": "/squarehealth/static/css/main.dfd5fc26.chunk.css.map",
-    "static/js/2.9f516421.chunk.js.LICENSE.txt": "/squarehealth/static/js/2.9f516421.chunk.js.LICENSE.txt"
+    "static/js/2.850c620d.chunk.js.LICENSE.txt": "/squarehealth/static/js/2.850c620d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2a839ca9.js",
     "static/css/2.0cfad52a.chunk.css",
-    "static/js/2.9f516421.chunk.js",
+    "static/js/2.850c620d.chunk.js",
     "static/css/main.dfd5fc26.chunk.css",
-    "static/js/main.8309e41f.chunk.js"
+    "static/js/main.a01e2d19.chunk.js"
   ]
 }
