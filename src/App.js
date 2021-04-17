@@ -4,6 +4,7 @@ import HomeScreen from './screens/HomeScreen'
 import AppointmentScreen from './screens/AppointmentScreen'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </Container>
         </main>
       </Switch>
+      <Footer/>
     </BrowserRouter>
   )
 }
