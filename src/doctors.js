@@ -6,7 +6,8 @@ const doctors = [
       days: ['Sunday', 'Wednessday'],
       timeslots: {
         sun: { startingTime: '10:00', endingTime: '18:00' },
-        wed: { startingTime: '18:00', endingTime: '21:00' }
+        wed: { startingTime: '18:00', endingTime: '21:00' },
+        sat:{startingTime: '19:00', endingTime: '22:00'}
       }
     },
     visitDurationInMin: 15,
