@@ -61,7 +61,7 @@ const AppointmentScreen = ({ match }) => {
                 row='3'
                 value={reason}
                 required
-                placeholder='Enter Your Phone Problems'
+                placeholder='Enter Your Problems'
                 onChange={(e) => setReason(e.target.value)}
               ></Form.Control>
             </Form.Group>
