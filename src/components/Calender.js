@@ -12,7 +12,7 @@ const Calender = ({ days, doctor }) => {
   const [slot, setSlot] = useState('')
   const dayv = String(selectedDate)
   const selectedfinal = dayv.slice(0, 3)
-  console.log(selectedfinal)
+  //console.log(selectedfinal)
 
   var startingTime
   var endingTime
@@ -40,7 +40,7 @@ const Calender = ({ days, doctor }) => {
     endingTime = doctor.availibility.timeslots.sat.endingTime
   }
 
-  console.log(startingTime)
+  //console.log(startingTime)
 
   //console.log(startingTime)
   let dateValues = []
@@ -86,7 +86,7 @@ const Calender = ({ days, doctor }) => {
   }
 
   var timeStops = getTimeStops(startingTime, endingTime)
-  console.log('timeStops ', timeStops)
+  //console.log('timeStops ', timeStops)
 
   function tConvert(time) {
     // Check correct time format and split into components
@@ -104,11 +104,12 @@ const Calender = ({ days, doctor }) => {
   }
 
   const giveMessage = () => {
-    setMessage('Time Slot Selected! Please Give Information Below')
+    setMessage('Time Slot Selected at' + slot  + '! Please Give Information Below')
     setTimeout(() => {
       setMessage('')
     }, 5000)
   }
+  console.log(slot)
 
   return (
     <>
@@ -134,7 +135,13 @@ const Calender = ({ days, doctor }) => {
             </Card.Title>
             <div className='grid-container'>
               {timeStops.map((timeStop) => (
-                <Button variant='outline-primary' onClick={giveMessage}>
+                <Button
+                  variant='outline-primary'
+                  onClick={() => {
+                    giveMessage()
+                    setSlot(tConvert(timeStop))
+                  }}
+                >
                   {tConvert(timeStop)}
                 </Button>
               ))}
